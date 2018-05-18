@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">WordFrashCard</string>
+
+    <string name="word_list">登録されている単語一覧</string>
+    <string name="introduction_word_list">修正はその単語の行をタップ、削除は長押ししてください</string>
+
+
+    <string name="main_edit">単語の編集</string>
+    <string name="main_meaning_test">意味テスト</string>
+    <string name="main_word_test">英単語テスト</string>
+
+    <!-- Edit-->
+    <string name="edit_instruction">問題と答えを入力して登録ボタンを押してください</string>
+    <string name="edit_question">英単語</string>
+    <string name="edit_answer">日本語</string>
+
+    <!--共通-->
+    <string name="regist">単語の登録</string>
+    <string name="back">もどる</string>
+
+    <!--ステータス-->
+    <string name="status_add">新しい単語の追加</string>
+    <string name="status_change">登録した単語の修正</string>
+
+    <!--インテントで渡すキー-->
+    <string name="intent_key_status">intent_key_status</string>
+    <string name="intent_key_question">intent_key_question</string>
+    <string name="intent_key_answer">intent_key_answer</string>
+    <string name="intent_key_position">intent_key_position</string>
+
+    <!--DBのフィールド-->
+    <string name="db_field_question">strQuestion</string>
+    <string name="db_field_answer">strAnswer</string>
+    <string name="db_field_memory_flag">boolMemoryFlag</string>
+
+    <!--ラジオボタンに表示させる選択-->
+    <string name="radio_butto_01">暗記済みの単語を除外する</string>
+    <string name="radio_butto_02">暗記済みの単語を含む</string>
+
+    <!--ラジオボタンでのインテント-->
+    <string name="intent_key_memory_flag">intent_key_memory_flag</string>
+
+    <!--ボタンの処理-->
+    <string name="button_start">テストをはじめる</string>
+    <string name="button_test_end">やめる</string>
+    <string name="button_back">もどる</string>
+    <string name="button_next">次の問題へ進む</string>
+    <string name="button_answer">答えを見る</string>
+</resources>
